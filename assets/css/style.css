@@ -42,13 +42,11 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
@@ -84,14 +82,13 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for the hero image */
-
+/* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
         transform: scale(1);
     }
     to{
-    transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 
@@ -106,7 +103,7 @@ h1, h2 {
 
     padding-top: 40px;
     padding-left: 10px;
-    
+
     background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
@@ -191,8 +188,10 @@ hr {
     border-radius: 50%;
 }
 
+/* event times */
+
 #times {
-    background-image: url('../images/dublin-city.webp');
+    background-image: url('../images/times-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -213,7 +212,7 @@ hr {
 }
 
 #times h2 {
-    color: #fafafa
+    color: #fafafa;
 }
 
 /* footer */
@@ -233,6 +232,6 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding 5%;
-    color:#3a3a3a;
+    padding: 5%;
+    color: #3a3a3a;
 }
